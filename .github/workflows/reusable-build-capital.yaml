@@ -1,0 +1,11 @@
+# Build all Capital web projects
+on:
+  workflow_call:
+
+name: "[reusable-build-capital]"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'
