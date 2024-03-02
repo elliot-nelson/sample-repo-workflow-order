@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+name: " Publish NPM Packages"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'
