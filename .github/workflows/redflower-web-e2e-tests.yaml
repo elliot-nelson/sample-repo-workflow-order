@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+name: "RedFlower Web E2E Tests"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'
