@@ -1,0 +1,11 @@
+# Execute reusable-build-capital
+on:
+  workflow_dispatch:
+
+name: "~Test reusable-build-capital"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'
