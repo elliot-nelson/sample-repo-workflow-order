@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
 
-name: "Deploy Project - DEV"
+name: " Deploy Project - DEV"
 
 jobs:
   job_1:

@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
 
-name: "Create Release Branch"
+name: "  Create Release Branch"
 
 jobs:
   job_1:
