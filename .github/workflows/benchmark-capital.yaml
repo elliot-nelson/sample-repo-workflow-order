@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+name: "Benchmark - Capital Web"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

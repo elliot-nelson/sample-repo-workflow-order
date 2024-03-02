@@ -1,0 +1,10 @@
+on:
+  repository_dispatch:
+
+name: "[trigger-docs]"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'
