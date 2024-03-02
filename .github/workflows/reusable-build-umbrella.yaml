@@ -1,0 +1,11 @@
+# Build all Umbrella web projects
+on:
+  workflow_call:
+
+name: "[reusable-build-umbrella]"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

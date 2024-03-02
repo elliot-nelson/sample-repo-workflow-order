@@ -1,0 +1,11 @@
+# Build all RedFlower web projects
+on:
+  workflow_call:
+
+name: "[reusable-build-redflower]"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

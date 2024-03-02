@@ -1,0 +1,11 @@
+# Promote a specific project to STG after long tests
+on:
+  workflow_dispatch:
+
+name: "Promote to STG"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

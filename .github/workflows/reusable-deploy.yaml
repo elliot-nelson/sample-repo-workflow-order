@@ -1,0 +1,11 @@
+# Deploy targeted projects to the specified environments
+on:
+  workflow_call:
+
+name: "[reusable-deploy]"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'
