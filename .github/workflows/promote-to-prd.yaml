@@ -2,7 +2,7 @@
 on:
   workflow_dispatch:
 
-name: "  Promote to  STG"
+name: "  Promote to PRD"
 
 jobs:
   job_1:
