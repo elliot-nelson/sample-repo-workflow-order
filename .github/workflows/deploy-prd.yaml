@@ -2,3 +2,9 @@ on:
   workflow_dispatch:
 
 name: "Deploy Project - PRD"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

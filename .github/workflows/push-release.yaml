@@ -1,6 +1,12 @@
 on:
   push:
     branches:
-      - 'release/**'
+      - "release/**"
 
-name: '(Push to Release)''
+name: "(Push to Release)"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

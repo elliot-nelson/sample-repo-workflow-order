@@ -4,3 +4,9 @@ on:
       - "main"
 
 name: "(Push to Main)"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

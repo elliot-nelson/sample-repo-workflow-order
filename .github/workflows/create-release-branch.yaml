@@ -2,3 +2,9 @@ on:
   workflow_dispatch:
 
 name: "Create Release Branch"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'

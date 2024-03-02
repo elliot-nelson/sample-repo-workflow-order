@@ -2,3 +2,9 @@ on:
   pull-request:
 
 name: "(Pull Requests)"
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - echo 'OK'
