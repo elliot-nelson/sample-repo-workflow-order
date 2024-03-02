@@ -1,7 +1,7 @@
 on:
-  pull_request:
+  workflow_dispatch:
 
-name: "(Pull Requests)"
+name: "Umbrella Web E2E Tests"
 
 jobs:
   job_1:
